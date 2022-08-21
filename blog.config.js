@@ -1,8 +1,8 @@
 const BLOG = {
-  title: 'DJTL Nobelium',
+  title: 'DTL',
   author: 'Craig Hart',
   email: 'i@craigary.net',
-  link: 'https://dtl-nobelium.vercel.app',
+  link: 'https://nobelium.vercel.app',
   description: 'This gonna be an awesome website.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -22,8 +22,8 @@ const BLOG = {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
-  notionPageId: process.env.043451e32ef94f68afa3dc5c94344926, // DO NOT CHANGE THIS！！！
-  notionAccessToken: process.env.8459be88ccc25dfb39477a589895ae6cab82cfae34a6580f0184ed052c2db9a799a5c26e2c7561ce873df12c95ad35827c7f425405b298c35bc82caf2d6a978b7be33af03d1a65b23d44d77bae12, // Useful if you prefer not to make your database public
+  notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
+  notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
     provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
     ackeeConfig: {
